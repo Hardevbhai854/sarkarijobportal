@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarkari Job Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff8c00, #ff4500);
+            color: #ffbd33;
+        }
+
+        header {
+            background: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .site-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background: linear-gradient(45deg, #ffbd33, #ff5733);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 5px rgba(255, 189, 51, 0.5);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #hero {
+            text-align: center;
+            padding: 50px;
+            background: #222;
+            color: white;
+        }
+
+        .section {
+            padding: 20px;
+            background: black;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 189, 51, 0.3);
+            text-align: center;
+        }
+
+        .box-title {
+            padding: 15px;
+            border-radius: 10px;
+            color: #ffbd33;
+            font-weight: bold;
+            font-size: 22px;
+            text-transform: uppercase;
+            background: linear-gradient(45deg, #ffbd33, #ff5733);
+            box-shadow: 0 4px 8px rgba(255, 189, 51, 0.2);
+        }
+
+        .box-title a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+
+        #contact {
+            background: black;
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* Disclaimer Styling */
+        .disclaimer {
+            font-size: 14px;
+            color: #ccc;
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background: #222;
+            border-top: 3px solid #ffbd33;
+            box-shadow: 0px -2px 10px rgba(255, 189, 51, 0.5);
+        }
+
+        .disclaimer-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffbd33;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="site-title">Sarkari Job Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#jobs">Latest Jobs</a></li>
+                <li><a href="#admit-card">Admit Card</a></li>
+                <li><a href="#answer-key">Answer Key</a></li>
+                <li><a href="#result">Results</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Find Your Dream Government Job</h2>
+        <p>Stay updated with the latest government job listings.</p>
+    </section>
+
+    <section id="jobs" class="section">
+        <div class="box-title">
+            <a href="https://www.sarkariresult.com/latestjob/" target="_blank">Latest Jobs</a>
+        </div>
+    </section>
+
+    <section id="admit-card" class="section">
+        <div class="box-title">
+            <a href="https://www.sarkariresult.com/admitcard/" target="_blank">Admit Card</a>
+        </div>
+    </section>
+
+    <section id="answer-key" class="section">
+        <div class="box-title">
+            <a href="https://www.sarkariresult.com/answerkey/" target="_blank">Answer Key</a>
+        </div>
+    </section>
+
+    <section id="result" class="section">
+        <div class="box-title">
+            <a href="https://www.sarkariresult.com/result/" target="_blank">Results</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:singhhardev40682@gmail.com" style="color: #ffbd33;">singhhardev40682@gmail.com</a></p>
+        <p>Follow us on social media:</p>
+        <ul style="list-style: none; padding: 0;">
+            <li><a href="https://www.instagram.com/sarkariresult.comofficial?igsh=MXVremdka2phdWozYg==" target="_blank" style="color: #ffbd33;">Instagram</a></li>
+            <li><a href="https://x.com/sarkari_result?t=uIQJYMmvNV4We2Cz4oN3qA&s=09" target="_blank" style="color: #ffbd33;">Twitter (X)</a></li>
+            <li><a href="https://whatsapp.com/channel/0029Va5IElwBlHpVBd6i5a18" target="_blank" style="color: #ffbd33;">WhatsApp</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sarkari Job Portal. All rights reserved.</p>
+        <div class="disclaimer">
+            <h2 class="disclaimer-title">⚠ Disclaimer</h2>
+            <p>Sarkari Job Portal is an independent platform dedicated to providing the latest updates on government jobs, admit cards, results, and answer keys. We are not affiliated with any government organization or agency. While we strive for accuracy, users are advised to verify job details from official sources before applying. We do not charge any fees for job listings or applications. Use of this website constitutes acceptance of our terms and policies. For official notifications, please refer to respective government websites.</p>
+        </div>
+    </footer>
+</body>
+</html>
